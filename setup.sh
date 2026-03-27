@@ -1,5 +1,6 @@
 #!/bin/bash
 # setup.sh - Install required tools for the ethical hacking lab
+# Author: rchics
 
 echo "[*] Updating packages..."
 pkg update -y && pkg upgrade -y

@@ -3,6 +3,9 @@
 > ⚠️ LEGAL NOTICE: Only use this on systems you own or have explicit written permission to test.
 > Unauthorized use is illegal and unethical.
 
+**Author:** rchics
+**GitHub:** [chicaryan/ethical-sql_injection](https://github.com/chicaryan/ethical-sql_injection)
+
 ---
 
 ## 📲 Install & Run in Termux (from GitHub)

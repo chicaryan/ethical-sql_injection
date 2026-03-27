@@ -1,5 +1,6 @@
 #!/bin/bash
 # ethlab.sh - Ethical Hacking Lab for Termux
+# Author: rchics
 # USE ONLY ON SYSTEMS YOU OWN OR HAVE WRITTEN PERMISSION TO TEST
 
 RED='\033[0;31m'
@@ -72,7 +73,8 @@ banner() {
   echo ""
   echo -e "${GREEN}╔$(printf '═%.0s' $(seq 1 68))╗${NC}"
   echo -e "${GREEN}║${NC}${BOLD}${WHITE}   ☠  ETHICAL HACKING LAB  |  Authorized Testing Only  ☠   ${NC}${GREEN}║${NC}"
-  echo -e "${GREEN}║${NC}${DIM}   Host: $(hostname) | User: $(whoami) | $(date '+%Y-%m-%d %H:%M')        ${NC}${GREEN}║${NC}"
+  echo -e "${GREEN}║${NC}${DIM}   Author: rchics | $(date '+%Y-%m-%d %H:%M')                          ${NC}${GREEN}║${NC}"
+  echo -e "${GREEN}║${NC}${DIM}   Host: $(hostname) | User: $(whoami)                                ${NC}${GREEN}║${NC}"
   echo -e "${GREEN}╚$(printf '═%.0s' $(seq 1 68))╝${NC}"
   echo ""
   [[ -n "$SAVED_TARGET" ]] && echo -e "  ${CYAN}► Active Target: ${BOLD}$SAVED_TARGET${NC}\n"
